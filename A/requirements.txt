@@ -1,0 +1,9 @@
+streamlit
+pydantic
+reportlab
+pymongo
+python-dotenv
+asyncio
+typing_extensions
+openai
+tiktoken

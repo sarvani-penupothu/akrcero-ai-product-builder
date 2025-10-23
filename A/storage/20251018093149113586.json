@@ -1,0 +1,201 @@
+{
+  "_id": "20251018093149113586",
+  "idea_text": "Sookshma is an affordable, AI-powered portable cold-storage solution designed to help small and marginal farmers reduce post-harvest losses. The system integrates temperature, humidity, and ethylene gas sensors with a Silicon Labs microprocessor running a lightweight TinyML model to continuously monitor storage conditions.\n\nWhen the produce is at risk of spoilage, the system automatically adjusts cooling or activates ventilation\u2014ensuring optimal freshness without manual intervention. The Sookshma Tent is lightweight, energy-efficient, and cost-effective (approximately \u20b92,500 per node), making it accessible to rural communities that lack large-scale cold-chain infrastructure.\n\nBy combining IoT sensors, AI-based prediction models, and sustainable design, Sookshma empowers farmers to extend shelf life, increase income, and minimize wastage. Future versions can be solar-powered and integrated with digital dashboards for analytics and supply chain tracking.",
+  "agents_output": {
+    "idea": {
+      "problem": "Sookshma is an affordable, AI-powered portable cold-storage solution designed to help small and marginal farmers reduce post-harvest losses",
+      "solution": "The system integrates temperature, humidity, and ethylene gas sensors with a Silicon Labs microprocessor running a lightweight TinyML model to continuously monitor storage conditions",
+      "target_audience": "early adopters",
+      "domain": "Ai",
+      "keywords": [
+        "sookshma",
+        "affordable",
+        "powered",
+        "portable",
+        "cold",
+        "storage"
+      ]
+    },
+    "business": {
+      "model": "Usage-based licensing",
+      "revenue_streams": [
+        "Tiered subscription plans",
+        "Professional onboarding services"
+      ],
+      "go_to_market": "Launch a limited beta targeting early adopters, combine thought leadership content with targeted partnerships in the ai ecosystem.",
+      "partners": [
+        "Ai industry associations",
+        "Influential product-led growth communities"
+      ]
+    },
+    "tech": {
+      "architecture": "Event-driven microservice architecture with an API gateway, orchestrated async workers for AI tasks, and a data lake for analytics.",
+      "stack": [
+        "Node.js (Fastify)",
+        "React + TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "AWS (Lambda + Aurora)"
+      ],
+      "ai_components": [
+        "OpenAI function-calling agents",
+        "Vector search via Pinecone or pgvector",
+        "Observability with Prometheus + Grafana"
+      ],
+      "scalability": "Use infrastructure-as-code and auto-scaling groups tailored for ai workloads."
+    },
+    "design": {
+      "experience_principles": [
+        "Clarity-first storytelling",
+        "Guided automation cues",
+        "Trust-building motion and feedback"
+      ],
+      "key_screens": [
+        "Personalized onboarding wizard",
+        "Intelligent workspace dashboard",
+        "Insights & analytics hub",
+        "Collaboration timeline"
+      ],
+      "brand_voice": "Confident, energizing, and data-backed"
+    },
+    "market": {
+      "segment": "Ai innovators and data-driven teams",
+      "competitors": [
+        "Notion AI",
+        "Asana Intelligence",
+        "Zapier AI"
+      ],
+      "differentiators": [
+        "Multi-agent orchestration tuned for founders",
+        "Context-aware personalization",
+        "Transparent metrics with actionable nudges"
+      ],
+      "launch_strategy": "Pilot with design partners, showcase rapid prototypes, and capture testimonials to fuel a public launch on Product Hunt and LinkedIn."
+    },
+    "timeline": {
+      "phases": [
+        {
+          "phase": "Discovery & Validation",
+          "duration": "Weeks 1-3",
+          "focus": "Customer discovery interviews, lean prototype, success metrics"
+        },
+        {
+          "phase": "MVP Build",
+          "duration": "Weeks 4-9",
+          "focus": "Core feature development, AI agent integration, closed beta"
+        },
+        {
+          "phase": "Beta Expansion",
+          "duration": "Weeks 10-14",
+          "focus": "Onboarding automation, analytics instrumentation, partner pilots"
+        },
+        {
+          "phase": "Launch & Scale",
+          "duration": "Weeks 15-20",
+          "focus": "Public launch, performance hardening, scale GTM engine"
+        }
+      ],
+      "total_duration_weeks": 20
+    }
+  },
+  "blueprint": {
+    "idea": {
+      "problem": "Sookshma is an affordable, AI-powered portable cold-storage solution designed to help small and marginal farmers reduce post-harvest losses",
+      "solution": "The system integrates temperature, humidity, and ethylene gas sensors with a Silicon Labs microprocessor running a lightweight TinyML model to continuously monitor storage conditions",
+      "target_audience": "early adopters",
+      "domain": "Ai",
+      "keywords": [
+        "sookshma",
+        "affordable",
+        "powered",
+        "portable",
+        "cold",
+        "storage"
+      ]
+    },
+    "business_model": {
+      "model": "Usage-based licensing",
+      "revenue_streams": [
+        "Tiered subscription plans",
+        "Professional onboarding services"
+      ],
+      "go_to_market": "Launch a limited beta targeting early adopters, combine thought leadership content with targeted partnerships in the ai ecosystem.",
+      "partners": [
+        "Ai industry associations",
+        "Influential product-led growth communities"
+      ]
+    },
+    "tech_stack": {
+      "architecture": "Event-driven microservice architecture with an API gateway, orchestrated async workers for AI tasks, and a data lake for analytics.",
+      "stack": [
+        "Node.js (Fastify)",
+        "React + TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "AWS (Lambda + Aurora)"
+      ],
+      "ai_components": [
+        "OpenAI function-calling agents",
+        "Vector search via Pinecone or pgvector",
+        "Observability with Prometheus + Grafana"
+      ],
+      "scalability": "Use infrastructure-as-code and auto-scaling groups tailored for ai workloads."
+    },
+    "ui_design": {
+      "experience_principles": [
+        "Clarity-first storytelling",
+        "Guided automation cues",
+        "Trust-building motion and feedback"
+      ],
+      "key_screens": [
+        "Personalized onboarding wizard",
+        "Intelligent workspace dashboard",
+        "Insights & analytics hub",
+        "Collaboration timeline"
+      ],
+      "brand_voice": "Confident, energizing, and data-backed"
+    },
+    "market_analysis": {
+      "segment": "Ai innovators and data-driven teams",
+      "competitors": [
+        "Notion AI",
+        "Asana Intelligence",
+        "Zapier AI"
+      ],
+      "differentiators": [
+        "Multi-agent orchestration tuned for founders",
+        "Context-aware personalization",
+        "Transparent metrics with actionable nudges"
+      ],
+      "launch_strategy": "Pilot with design partners, showcase rapid prototypes, and capture testimonials to fuel a public launch on Product Hunt and LinkedIn."
+    },
+    "timeline": {
+      "phases": [
+        {
+          "phase": "Discovery & Validation",
+          "duration": "Weeks 1-3",
+          "focus": "Customer discovery interviews, lean prototype, success metrics"
+        },
+        {
+          "phase": "MVP Build",
+          "duration": "Weeks 4-9",
+          "focus": "Core feature development, AI agent integration, closed beta"
+        },
+        {
+          "phase": "Beta Expansion",
+          "duration": "Weeks 10-14",
+          "focus": "Onboarding automation, analytics instrumentation, partner pilots"
+        },
+        {
+          "phase": "Launch & Scale",
+          "duration": "Weeks 15-20",
+          "focus": "Public launch, performance hardening, scale GTM engine"
+        }
+      ],
+      "total_duration_weeks": 20
+    },
+    "summary": "System Intent: Create a concise executive summary for a product blueprint, highlighting the core problem, solution, business model, tech stack, market positioning, and launch timeline. Use a confident tone and keep it under 120 words.\nInsight: Focus on Problem: Sookshma is an affordable, AI-powered portable cold-storage solution designed to help small and marginal farmers reduce post-harvest losses\nSolution: The system integrates temperature, humidity, and ethylene gas sensors with a Silicon Labs microprocessor running a lightweight TinyML model to continuously monitor storage conditions\nAudience: early adopters\nBusiness Model: Usage-based licensing\nGo-To-Market: Launch a limited beta targeting early adopters, combine thought leadership content with targeted partnerships in the ai ecosystem.\nTech Stack: Node.js (Fastify), React + TypeScript, PostgreSQL, Docker, AWS (Lambda + Aurora)\nArchitecture: Event-driven microservice architecture with an API gateway, orchestrated async workers for AI tasks, and a data lake for analytics.\nDesign Focus: Clarity-first storytelling, Guided automation cues, Trust-building motion and feedback\nMarket: Ai innovators and data-driven teams\nCompetitors: Notion AI, Asana Intelligence, Zapier AI\nDifferentiators: Multi-agent orchestration tuned for founders, Context-aware personalization, Transparent metrics with actionable nudges\nTimeline: 20 weeks."
+  },
+  "pitch": "",
+  "created_at": "2025-10-18T09:31:49.113601"
+}
